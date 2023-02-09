@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TodoApp">
+    <LinearLayout
+        android:id="@+id/loyout1"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_height="400dp"
+        android:background="@drawable/stroke_solid"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/todo_app"
+            android:textSize="45sp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+        <EditText
+            android:id="@+id/txtnote"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:hint="@string/tasks"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:autofillHints=""
+            android:background="@drawable/todo_input" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="20sp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/loginshape"
+            android:text="@string/submit" />
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loyout1"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello world"
+                android:textSize="25sp"
+                android:textColor="@color/purple_700"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

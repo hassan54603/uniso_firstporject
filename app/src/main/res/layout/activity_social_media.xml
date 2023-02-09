@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center"
+    tools:context=".SocialMedia">
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/facebook"
+        android:src="@drawable/facebook"/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/whatsapp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/whatsapp"/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/instagram"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/instagram"/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/world"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/world"/>
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:id="@+id/phone"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/phone"/>
+
+</LinearLayout>
